@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NowPlayingActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/play_image"
+        android:scaleType="centerCrop" />
+
+    <View
+        android:id="@+id/image2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/light_Black"
+        android:scaleType="centerInside" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/song_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_32"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/artist_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_24" />
+
+        <TextView
+            android:id="@+id/album_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_18" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/light_white"
+        android:padding="@dimen/padding_16">
+
+        <ImageButton
+            android:id="@+id/play_button"
+            android:layout_width="@dimen/layout_width_80"
+            android:layout_height="@dimen/layout_height_80"
+            android:layout_centerInParent="true"
+            android:background="?selectableItemBackground"
+            android:contentDescription="@string/play_button"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_play_circle_outline"
+            android:tint="@color/colorAccent" />
+
+        <ImageButton
+            android:id="@+id/rewind"
+            android:layout_width="@dimen/layout_width_60"
+            android:layout_height="@dimen/layout_height_60"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/play_button"
+            android:layout_toStartOf="@id/play_button"
+            android:background="?selectableItemBackground"
+            android:contentDescription="@string/fast_rewind_button"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_fast_rewind" />
+
+        <ImageButton
+            android:id="@+id/fast_forward"
+            android:layout_width="@dimen/layout_width_60"
+            android:layout_height="@dimen/layout_height_60"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/play_button"
+            android:layout_toRightOf="@id/play_button"
+            android:background="?selectableItemBackground"
+            android:contentDescription="@string/fast_forward_button"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_fast_forward" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

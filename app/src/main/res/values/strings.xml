@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Musical structure app</string>
+    <string name="library">Library</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="play_image">play image</string>
+    <string name="play_button">play button</string>
+    <string name="fast_rewind_button">fast_rewind_button</string>
+    <string name="fast_forward_button">fast_forward_button</string>
+    <string name="song_image">song image</string>
+</resources>

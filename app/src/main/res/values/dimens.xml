@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="text_size_32">32sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="padding_16">16dp</dimen>
+    <dimen name="layout_width_80">80dp</dimen>
+    <dimen name="layout_height_80">80dp</dimen>
+    <dimen name="layout_width_60">60dp</dimen>
+    <dimen name="layout_height_60">60dp</dimen>
+    <dimen name="layout_width_50">50dp</dimen>
+    <dimen name="layout_height_50">50dp</dimen>
+
+</resources>
