@@ -29,6 +29,7 @@
             android:id="@+id/song_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            tools:text="Sorry"
             android:gravity="center"
             android:textColor="@android:color/white"
             android:textSize="@dimen/text_size_32"
@@ -39,6 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            tools:text="Justin Bieber"
             android:textColor="@android:color/white"
             android:textSize="@dimen/text_size_24" />
 
@@ -46,6 +48,7 @@
             android:id="@+id/album_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            tools:text="Purpose"
             android:gravity="center"
             android:textColor="@android:color/white"
             android:textSize="@dimen/text_size_18" />
